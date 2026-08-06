@@ -47,3 +47,7 @@ Readability and the general flow of writing/executing code came back fast — th
 - Learned about `.toFixed()`.
 
 Revision:
+
+- Learned how to test
+- Learned how to change code to iterate better, modified function to do it all in one pass, instead of having multiple loops over and over. That became helpful when calculating subtotal, and total
+- Learned the proper way of validating input
