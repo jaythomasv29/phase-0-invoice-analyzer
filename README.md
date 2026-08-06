@@ -51,3 +51,11 @@ Revision:
 - Learned how to test
 - Learned how to change code to iterate better, modified function to do it all in one pass, instead of having multiple loops over and over. That became helpful when calculating subtotal, and total
 - Learned the proper way of validating input
+
+- The bug that mattered the most was ensuring that the app won't break or fail when given the wrong inputs. As well as testing to ensure the performance and output was correct and working as expected
+
+- AI helped in finding solutions for things such as helper functions, a method for a specific data type, and tests
+
+- I had AI help with those along with debugging, and minor things within the code to get things to perform properly.
+
+- The validation rule that was easiest.was if nothing was inputed. And then it was the wrong data type, and how type coercion would manipulate things.
