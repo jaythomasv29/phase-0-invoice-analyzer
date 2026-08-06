@@ -1,6 +1,3 @@
-const invoicesObj = await import("./data.js");
-const invoices = invoicesObj.invoices;
-
 export function analyzeInvoices(invoices) {
   const validInvoices = [];
   const invalidInvoices = [];
@@ -58,8 +55,7 @@ export function analyzeInvoices(invoices) {
   }; // gets an array of the valid invoices by filtering it
 }
 
-const invoiceSummary = analyzeInvoices(invoices);
-
+// const invoiceSummary = analyzeInvoices(invoices);
 // console.log(invoiceSummary);
 /*
 {

@@ -2,8 +2,8 @@
 
 **Start time:** Aug 3, 20:42
 **End time:** Aug 3, 11:41
-**Start revision** Aug 5, 18:15
-**End revision time:** Aug 5, 17:40
+**Start revision task** Aug 5, 18:15
+**End revision task time:** Aug 5, 19:40
 
 ## Reflection
 
@@ -57,5 +57,7 @@ Revision:
 - AI helped in finding solutions for things such as helper functions, a method for a specific data type, and tests
 
 - I had AI help with those along with debugging, and minor things within the code to get things to perform properly.
+
+- I wrote the code myself, the only one I Googled was mainly the date, but that was updated with better validation
 
 - The validation rule that was easiest.was if nothing was inputed. And then it was the wrong data type, and how type coercion would manipulate things.
