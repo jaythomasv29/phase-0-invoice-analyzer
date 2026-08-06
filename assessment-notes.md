@@ -1,40 +1,45 @@
-Start time: Aug 3 20:42
-End time: Aug 3 11:41
-I haven't coded in a few years. I needed time to recall, and fix minor mistakes.
+# Coding Session Log
 
-Bugs occured on some reference errors
-I would improve by not jumping into things too quickly
-I felt that the readability and executing of things came back fast, the beginner stuff of JS came back quick. Some little quircks needed googling.
+**Start time:** Aug 3, 20:42
+**End time:** Aug 3, 11:41
 
-Documentation I used:
-Google
-Google AI Search
-Sometimes Google AI Search popped up automatically
-W3 school
+## Reflection
 
-Log:
+I haven't coded in a few years, so I needed time to recall syntax and fix minor mistakes. Bugs mostly came from reference errors. I'd improve by not jumping into things too quickly.
 
-- Used a validate date from Google
+Readability and the general flow of writing/executing code came back fast — the JS basics returned quickly. A few quirks still needed a quick search to jog my memory.
 
-- Changed type to module for importing
-  This error happens because Node.js defaults to CommonJS syntax (require / module.exports), but your file uses ES Module (ESM) syntax (export).
-  Solution 1: Add "type": "module" to package.json (Recommended)
-  Open your package.json file in the root of your project and add "type": "module": When you import an array using dynamic import() or certain module systems, JavaScript returns a Promise because module loading is asynchronous. The code must wait for the file to load and run before the data is ready. You need to use await or .then() to read the actual array.
+## Documentation Used
 
-I asked Google, in AI Mode:
+- Google
+- Google AI Search (sometimes it popped up automatically)
+- W3Schools
 
-- How do I check for undefined and a length:
-  To check if an array is defined and contains elements, combine an existence check with a .length check using the logical AND (&&) operator or optional chaining (?.). This prevents "Cannot read properties of undefined" errors.
+## Session Log
 
-Googled JS Array Iternation methods found what I needed on w3school
+- Used a `validate date` snippet found via Google.
 
-- I did a google of what .flatMap() is, it can basically do a .map() and a .filter() in a single pass.
+- **Changed `"type": "module"` for importing.**
+  This error happens because Node.js defaults to CommonJS syntax (`require` / `module.exports`), but the file used ES Module (ESM) syntax (`export`).
 
-- I searched how to get rid of duplicate Objects
-- What does the [...new Map arr.values()] do?
-  This transforms your array of objects into an array of key-value pairs.Input: [{id: 1, name: 'Alice'}, {id: 2, name: 'Bob'}, {id: 1, name: 'Alice'}]Output: [[1, {id: 1, name: 'Alice'}], [2, {id: 2, name: 'Bob'}], [1, {id: 1, name: 'Alice'}]]
+  **Solution:** Add `"type": "module"` to `package.json` (recommended). When importing an array using dynamic `import()` or certain module systems, JavaScript returns a Promise because module loading is asynchronous — the code has to wait for the file to load and run before the data is ready. You need `await` or `.then()` to read the actual array.
 
-- reduce through array of objects and only get one
+- **Asked Google (AI Mode): How do I check for `undefined` and length?**
+  To check if an array is defined and contains elements, combine an existence check with a `.length` check using `&&` or optional chaining (`?.`). This prevents "Cannot read properties of undefined" errors.
 
-- I don't know how to test, i never written tests before
-  -Learned about +.toFixed()
+- Googled JS array iteration methods — found what I needed on W3Schools.
+
+- Looked up what `.flatMap()` is — it basically does a `.map()` and a `.filter()` in a single pass.
+
+- Searched how to get rid of duplicate objects.
+
+- **What does `[...new Map(arr.values())]` do?**
+  It transforms an array of objects into an array of key-value pairs.
+  - Input: `[{id: 1, name: 'Alice'}, {id: 2, name: 'Bob'}, {id: 1, name: 'Alice'}]`
+  - Output: `[[1, {id: 1, name: 'Alice'}], [2, {id: 2, name: 'Bob'}], [1, {id: 1, name: 'Alice'}]]`
+
+- Used `.reduce()` through an array of objects to only get one result.
+
+- Don't know how to test — never written tests before.
+
+- Learned about `.toFixed()`.

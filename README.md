@@ -2,6 +2,8 @@
 
 **Start time:** Aug 3, 20:42
 **End time:** Aug 3, 11:41
+**Start revision** Aug 5, 18:15
+**End revision time:** Aug 5, 17:40
 
 ## Reflection
 
@@ -43,3 +45,5 @@ Readability and the general flow of writing/executing code came back fast — th
 - Don't know how to test — never written tests before.
 
 - Learned about `.toFixed()`.
+
+Revision:
